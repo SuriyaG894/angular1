@@ -1,0 +1,22 @@
+to install bootstap
+    ---->do the follow
+    ---->type :npm install bootstrap
+    ---->then type npm install iquery
+    ---->then edit in the angular.json->architech->styles["node_modules/bootstrap/dist/css/bootstrap.css"]
+    ---->and in the script["node_modules/bootstrap/dist/js/bootstrap.js","node_modules/bootstrap/dist/js/bootstrap.js"]
+
+Interpolation--->{{}} which is used to render over the html
+Property Binding---->[] which is a dynamic one
+eg:[id]="idname"
+Class Binding------>[] which is also used for dynamic purpose
+eg:[class.classname]="bool" if the variable bool is true then the class can be used or else it cannot be used
+Style Binding------>[] which is also used for dynamic purpose
+eg:[style.attributename]="bool?'value':'value'"
+click ------->() which is used for functions
+eg:(click)=fun_name()
+Template referencing variable----->#var_name
+which is used in the functions.
+eg:fun-name(var_name:any)
+{
+    console.log(var_name.value)
+}

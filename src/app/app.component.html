@@ -1,0 +1,38 @@
+<div class="container well">
+  <h1>Online Registration</h1>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <input type="text" placeholder="firstname" #fname>
+    </div>
+    <div class="col-md-6 text-justify">
+      <input type="text" placeholder="lastname" #lname>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+       <input type="email" placeholder="email" class="align" #mail>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+       <input type="password" placeholder="password" class="align" #pass>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+       <input type="password" placeholder="confirm password" class="align" #cpass>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+       <button type="button" class="btn btn-success" (click)=print_val(fname,lname,mail,pass,cpass)>Register</button>
+    </div>
+  </div>
+</div>
+<div [style.color]="bool?'red':'green'" style="text-align:center;">
+  <p>FirstName:{{fn}}</p>
+  <p>LastName:{{ln}}</p>
+  <p>Email:{{m}}</p>
+  <p>Password:{{p}}</p>
+  <p>Confirm Password:{{cp}}</p>
+</div>
