@@ -1,0 +1,44 @@
+<div class="container">
+    <h1 style="text-align:center;margin-top:50px;">
+        Calculator
+    </h1>
+
+    <ol style="margin-left:470px;margin-top:50px;background-color: aliceblue;width:180px;padding-top:10px">
+        <li>Addition</li>
+        <li>Subtraction</li>
+        <li>Multiplication</li>
+        <li>Division</li>
+    </ol>
+    <div class="row">
+        <div class="col-md-6">
+            <p style="margin-top:50px;margin-left:350px">Enter Your Choice:</p>
+        </div>
+        <div class="col-md-6" style="margin-top:50px;">
+            <input type="number" tyle="margin-top:50px;" #choice>
+        </div>
+    </div>
+    <div class="row">
+        <form style="margin-left: 350px;">
+        <div class="col-md-12">
+            <label style="margin-right: 125px;">Enter Number 1:</label><input type="number" style="margin-top:50px;" #num1>
+        </div>
+        <div class="col-md-12">
+            <label style="margin-right: 125px;">Enter Number 2:</label><input type="number" style="margin-top:50px;" #num2>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+            <button type="button" (click)=getinp(choice,num1,num2)>Calculate</button>
+        </div>
+        </div>
+    </form>
+    </div>
+    <div [ngSwitch]="c" style="text-align:center">
+        <div *ngSwitchCase="1">Answer is {{n1+n2}}</div>
+        <div *ngSwitchCase="2">Answer is {{n1-n2}}</div>
+        <div *ngSwitchCase="3">Answer is {{n1*n2}}</div>
+        <div *ngSwitchCase="4">Answer is {{n1/n2}}</div>
+    </div>
+</div>
+
+
+

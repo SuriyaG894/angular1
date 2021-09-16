@@ -1,0 +1,33 @@
+1.ngIf
+eg:	<h1 *ngIf="true";else next>HTML</h1>
+	<ng-template #next>
+	<h1>CSS</h1>
+	</ng-template>
+ngIf is used to check condition in component.html file it will not work in component.ts file.we can use normal if else statement in typescript file.
+
+2.ngSwitch
+eg:	<div [ngSwitch]="choice">
+	<div *ngSwitchCase="red">Red</div>
+	<div *ngSwitchCase="red">Red</div>
+	<div *ngSwitchCase="red">Red</div>	
+	</div>
+It works like normal switch case statement in other programming language but it can be used only in component.html file it cannot be used in
+component.ts file
+
+3.ngFor
+eg:	<div *ngFor="let name fo names;first as f">
+	<h1> {{f}}{{name}}</h1>
+	</div>
+	<div *ngFor="let name fo names;last as l">
+	<h1> {{l}}{{name}}</h1>
+	</div>
+	<div *ngFor="let name fo names;odd as o">
+	<h1> {{o}}{{name}}</h1>
+	</div>
+	<div *ngFor="let name fo names;even as f">
+	<h1> {{e}}{{name}}</h1>
+	</div>
+	<div *ngFor="let name fo names">
+	<h1>{{name}}</h1>
+	</div>
+This is for loop which is used to print the array values starting from index 0 till the last value.
