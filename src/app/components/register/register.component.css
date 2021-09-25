@@ -1,0 +1,122 @@
+img{
+    height: 100vh;      
+     width: 100%; 
+}
+.bg-img
+{
+    margin:0;
+    display:inline-block;
+}
+.container-fluid
+{
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    position:relative;
+    text-align:center;
+}
+.decorate
+{
+    background-image: linear-gradient(to bottom left,#b1a6f7,#ff57d8);
+    position:absolute;
+    left:550px;
+    bottom:30%;
+    width:500px;
+    height:500px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+.img-sty
+{
+    max-width: 100%;
+    height:auto;
+    opacity: 0.8;
+}
+.sign
+{
+    margin-bottom:30px;
+}
+.sign-up
+{
+    text-align:left;
+    margin-left:60px;
+    margin-top:30px;
+    font-weight:700;
+    color:white;
+}
+.para_tag
+{
+    text-align:left;
+    margin-left:60px;
+    margin-top:30px;
+    font-weight:700;
+    color:white;
+}
+.form_s
+{
+    margin-bottom:20px;
+}
+.first_name
+{
+    height:30px;
+    outline-color: violet;
+    margin-right:10px;
+    width:37%;
+    font-size: 12px;
+}
+.lname
+{
+    height:30px;outline-color: violet;
+    width:36%;
+    font-size:12px;
+}
+.email{
+    width:376px;
+    height:30px;
+    margin-bottom:20px;
+    outline-color: violet;
+    font-size:12px;
+}
+.passwd
+{
+    width:376px;
+    height:30px;
+    margin-bottom:20px;
+    outline-color: violet; 
+    font-size:12px;
+}
+.cpasswd
+{
+    width:376px;
+    height:30px;
+    margin-bottom:30px;
+    outline-color: violet;
+    font-size:12px;
+}
+.accept
+{
+    margin-left:5px;
+}
+.terms
+{
+    color:aliceblue;
+    display:inline;
+}
+.privacy
+{
+    color:aliceblue;
+    display:inline;
+}
+.boton_r
+{
+    height:50px;
+    width:100px;
+    border-radius: 250px;
+    background-color:slateblue;
+    color:white;
+    border:none;
+}

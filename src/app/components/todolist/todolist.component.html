@@ -1,0 +1,15 @@
+<div class="container">
+<div class="main">
+    <h1>My to do List</h1>
+    <h2>What would you like to do today?</h2>
+    <input type="text" placeholder="add an item" #newitem value="reset">
+    <button type="button" (click)="addItem(newitem.value)" >Add</button>
+    <input type="reset" >
+    <ul>
+        <li *ngFor="let data of getItem">
+            {{data.addeditem}}
+        </li>
+    </ul>
+</div>
+
+</div>

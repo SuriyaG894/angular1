@@ -1,0 +1,20 @@
+Reactive Form:
+-------------
+    -->In the app.module.ts file import the following:
+        import {FormsModule} from '@angular/forms';
+        import { ReactiveFormsModule } from '@angular/forms';
+    -->In the component.ts file import the following command:
+        import { FormsModule,FormControl, FormGroup } from '@angular/forms';
+    -->In the form tag use [formGroup]="formname" (ngSubmit)="Onsubmit(detailform)"
+    -->In the input tag use formControlName="var_name"
+
+    -->In the TypeScript File do the following:
+        myform:new FormGroup;
+        myform=new FormGroup({
+            name: new FormControl(),
+            name: new FormControl()
+        });
+        Onsubmit(myform:any)
+        {
+            console.log(myform.value);
+        }

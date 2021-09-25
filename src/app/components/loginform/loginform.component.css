@@ -1,0 +1,54 @@
+/* .decorate
+{
+    width:500px;
+    height:300px;
+    margin-left:610px;
+    margin-top:250px;
+    background-color: white;
+    padding:20px;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+
+.signup
+{
+    color: skyblue;
+    margin-left:5px;
+}
+.txtalign
+{
+    margin-top:10px;
+    margin-left:160px;
+}
+.fontxt
+{
+    font-size: 15px;
+}
+.btn
+{
+    margin-left:200px;
+    width:60px;
+    height:30px;
+}
+.form-group{
+    background-color: white;
+} */
+.decorate
+{
+    width:500px;
+    height:450px;
+    margin-left:580px;
+    margin-top:150px;
+    background-color: white;
+    padding:20px;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+.space
+{
+    margin-top:10px;
+}
+.btn
+{
+    margin-left:200px;
+    width:60px;
+    height:30px;
+}

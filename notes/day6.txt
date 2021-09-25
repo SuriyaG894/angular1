@@ -1,0 +1,10 @@
+Template Driven Form:
+--------------------
+-->It uses lot of html code.
+-->It is useful for simple forms.
+-->It can be implemented in the following way:
+    --> #username="ngForm" (ngSubmit)="Onsubmit(username)" in the form tag
+    --> In the input tag use name attribute and ngModel.To access all the element value.
+TypeScript:
+    --> print in the console by using the following command
+    --> console.log(username.value);

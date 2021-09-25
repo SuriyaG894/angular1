@@ -1,0 +1,33 @@
+Pipe Concept:
+------------
+-->It is used to render the text in the view.
+-->It does not change the value of the variable in the typescript.
+-->It is represented by this symbol '|'
+Syntax:
+------
+<p>{{name|lowercase}}</p>(The following pipe print the name in lowercase)
+Like this we can use other attribute
+<h4>{{name|uppercase}}</h4>
+<h4>{{message|titlecase}}</h4>
+<h4>{{name|slice:2}}</h4>
+
+<h4>{{3.14|number:'1.1-2'}}</h4>
+<h4>{{3.14|number:'2.2-3'}}</h4>
+<h4>{{3.14|number:'3.4-5'}}</h4>
+<h4>{{0.75|percent}}</h4>
+<h4>{{25|currency}}</h4>
+<h4>{{25|currency:'INR':'code'}}</h4>
+<h4>{{date|date}}</h4>
+<h4>{{date|date:'shortDate'}}</h4>
+<h4>{{date|date:'shortTime'}}</h4>
+
+<h4>{{employees|json}}</h4>
+
+Service Concept:
+---------------
+create the service by using the following command:
+-->ng create service service_name
+--->This command will create the new service
+--->import { UsersService } from 'src/app/users.service'; use this import statement in the typescript file where we want to use the service
+--->And use the service
+Advantages:Its like global variable,we can use this in all the components where we want.

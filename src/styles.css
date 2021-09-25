@@ -1,10 +1,2 @@
-/* You can add global styles to this file, and also import other style files */
-.align{
-    padding-left: 0px;
-    margin-top: 20px;
-    margin-left: 160px;
-    width:400px;
-}
-button{
-    margin-top:40px;
-}
+.body_style
+{overflow:hidden;}

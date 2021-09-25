@@ -1,0 +1,37 @@
+<div class="container-fluid well">
+    <div class="bg-img">
+        <img src="assets/img/gradientback2.jpg" alt="background" class="img-sty">
+    </div>
+    <div class="decorate">
+        <div class="sign">
+            <h2 class="sign-up">Sign Up</h2>
+            <p class="para_tag">Please fill in this form to create account!</p>
+            <hr>
+        </div>
+            <form [formGroup]="detailform" (ngSubmit)="Onsubmit(detailform)">
+                <div class="form_s">
+                    <input type="text"  placeholder="firstname" class="first_name" formControlName="fname" >
+                    <input type="text" class="lname" placeholder="lastname" formControlName="lname" name="lnme" >
+                </div>
+                <div>
+                    <input type="email" placeholder="email" formControlName="mail" class="email" >
+                    <input type="password" placeholder="password" formControlName="psd" class="passwd" >
+                    <input type="password" placeholder="Confirm password" formControlName="cpsd" class="cpasswd"><br>
+                    <input type="checkbox" id="tick" name="tick" value="accept">
+                    <label for="tick" class="accept">I accept the <p class="terms">Terms Of Use</p> & <p class="privacy">Privarcy policy</p></label><br>
+                    <button class="boton_r">Sign Up</button>
+                </div>
+            </form>
+    </div>
+</div>
+<!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Enter Your Name</p>
+            <form>
+                <input type="text" name="name" [(ngModel)]="Yourname">
+            </form>
+            <H1>{{Yourname}}</H1>
+        </div>
+    </div>
+</div> -->

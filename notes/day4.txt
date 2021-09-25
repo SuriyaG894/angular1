@@ -1,0 +1,12 @@
+Two Way Binding
+---------------
+-->First import FormsModules in app.module.ts
+-->Then paste FormsModules in import
+-->Two way binding is the combination of property binding + event binding
+-->Use banana in the box model in the input tag for performing two way binding 
+eg: <input type="text" [(ngModel)]="YourName">
+    <p>YourName</p>
+ output:             --------------
+    Enter your name:| suriya ganesh |
+                     --------------
+    suriya ganesh (it prints as you type in the view)
